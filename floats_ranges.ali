@@ -1,0 +1,64 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U floats_ranges%b	floats_ranges.adb	adfdc3bd NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-flteio.ads		20200819050642 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-tiflio.ads		20200819050643 bf196650 ada.text_io.float_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D floats_ranges.adb	20220812144639 e2835170 floats_ranges%b
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-conca2.ads		20200819050645 02a0d7d0 system.concat_2%s
+D s-conca5.ads		20200819050645 875e432e system.concat_5%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imgrea.ads		20200819050645 9f9b9792 system.img_real%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [floats_ranges standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|3r6 4r6 11r3 18r3 20r3
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 10|4w10 20r7
+X 7 a-textio.ads
+57K13*Text_IO 727e16 10|3w10 11r7 18r7
+86I12*Field{integer}
+508U14*Put_Line 10|11s15 18s15
+X 8 a-tiflio.ads
+82U14*Put 10|20s21[3|20]
+86i7 Exp{7|86I12} 10|20r32[3|20]
+X 10 floats_ranges.adb
+6U11*floats_ranges 6b11 21l5 21t18
+7f3 Sum1Float{float} 16r12
+8f3 Sum2Float{float} 16r24
+9f3 Total{float} 16m3 19r17 20r25
+
